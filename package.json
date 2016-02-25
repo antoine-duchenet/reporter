@@ -1,0 +1,32 @@
+{
+    "name": "reporter",
+    "version": "1.0.0",
+    "description": "An event based JSON Report generator.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "doc": "node doc.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antoine-duchenet/reporter.git"
+    },
+    "keywords": [
+        "report",
+        "JSON",
+        "event",
+        "generator"
+    ],
+    "author": "Antoine Duchenet <antoine.duchenet@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/antoine-duchenet/reporter/issues"
+    },
+    "homepage": "https://github.com/antoine-duchenet/reporter#readme",
+    "devDependencies": {
+        "eslint": "^1.10.3",
+        "eslint-config-airbnb": "^5.0.0",
+        "jsdoc": "^3.4.0",
+        "mocha": "^2.4.5"
+    }
+}
